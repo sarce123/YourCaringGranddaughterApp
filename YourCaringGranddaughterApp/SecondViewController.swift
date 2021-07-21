@@ -9,6 +9,30 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var corrEmoji: UILabel!
+    
+    
+    @IBAction func amazingClicked(_ sender: UIButton) {
+        corrEmoji.text = "🤩"
+    }
+    
+    @IBAction func goodClicked(_ sender: UIButton) {
+        corrEmoji.text = "😄"
+    }
+    
+    @IBAction func okayClicked(_ sender: Any) {
+        corrEmoji.text = "😐"
+    }
+    
+    @IBAction func unwellClicked(_ sender: UIButton) {
+        corrEmoji.text = "😕"
+    }
+    
+    @IBAction func terribleClicked(_ sender: UIButton) {
+        corrEmoji.text = "😩"
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
