@@ -75,21 +75,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How Are You Feeling Today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdG-DO-yOE">
-                                <rect key="frame" x="0.0" y="91" width="390" height="150"/>
+                                <rect key="frame" x="0.0" y="56" width="390" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="41"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🍃🌱🌿     🌱🍃🌿" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPg-f8-Imr">
-                                <rect key="frame" x="40" y="55" width="310" height="70"/>
+                                <rect key="frame" x="39" y="20" width="310" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="35"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-1Q-DjQ">
-                                <rect key="frame" x="39" y="240" width="312" height="70"/>
+                                <rect key="frame" x="38" y="205" width="312" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.83529411764705885" blue="0.68235294117647061" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxc-09-tks">
-                                <rect key="frame" x="39" y="337" width="312" height="70"/>
+                                <rect key="frame" x="38" y="302" width="312" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.83529411760000005" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -123,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQE-XZ-8bU">
-                                <rect key="frame" x="40" y="434" width="312" height="70"/>
+                                <rect key="frame" x="39" y="399" width="312" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.83529411760000005" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -140,7 +140,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDj-9w-j6M">
-                                <rect key="frame" x="38" y="531" width="312" height="70"/>
+                                <rect key="frame" x="37" y="496" width="312" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.83529411760000005" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -157,7 +157,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYM-ja-1lP">
-                                <rect key="frame" x="40" y="627" width="312" height="70"/>
+                                <rect key="frame" x="39" y="592" width="312" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.83529411760000005" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -174,7 +174,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiO-EQ-ZU5">
-                                <rect key="frame" x="54" y="705" width="121" height="115"/>
+                                <rect key="frame" x="53" y="670" width="121" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93227189779999997" green="0.94107550380000005" blue="0.83475428819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="100"/>
@@ -182,42 +182,42 @@
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🤩" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcl-kD-ZUD">
-                                <rect key="frame" x="49" y="241" width="87" height="69"/>
+                                <rect key="frame" x="48" y="206" width="87" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="60"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😄" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qD-SZ-918">
-                                <rect key="frame" x="49" y="337" width="87" height="69"/>
+                                <rect key="frame" x="48" y="302" width="87" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="60"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😐" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="md2-ES-2KM">
-                                <rect key="frame" x="49" y="434" width="87" height="69"/>
+                                <rect key="frame" x="48" y="399" width="87" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="60"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😕" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6O-B6-9kq">
-                                <rect key="frame" x="49" y="532" width="87" height="69"/>
+                                <rect key="frame" x="48" y="497" width="87" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="60"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😩" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyJ-Ly-H1A">
-                                <rect key="frame" x="63" y="628" width="60" height="69"/>
+                                <rect key="frame" x="62" y="593" width="60" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="60"/>
                                 <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QE-cp-ygA">
-                                <rect key="frame" x="201" y="719" width="149" height="77"/>
+                                <rect key="frame" x="200" y="684" width="149" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
@@ -234,7 +234,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="App Logo" translatesAutoresizingMaskIntoConstraints="NO" id="lDZ-OD-O9J">
-                                <rect key="frame" x="167" y="65" width="58" height="50"/>
+                                <rect key="frame" x="166" y="30" width="58" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
