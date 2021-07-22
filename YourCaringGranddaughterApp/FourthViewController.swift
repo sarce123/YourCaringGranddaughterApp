@@ -26,4 +26,8 @@ class FourthViewController: UIViewController {
     }
     */
 
+    @IBAction func TechWebsite1(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://www.youtube.com/watch?v=HNOOeRVq9Xw&ab_channel=babaxCode")! as URL, options: [:], completionHandler:nil)
+        
+    }
 }
