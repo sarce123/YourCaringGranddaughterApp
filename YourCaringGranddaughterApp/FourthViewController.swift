@@ -25,9 +25,9 @@ class FourthViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    @IBAction func TechWebsite1(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://www.youtube.com/watch?v=HNOOeRVq9Xw&ab_channel=babaxCode")! as URL, options: [:], completionHandler:nil)
+    
+    @IBAction func firstButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://www.parkmanorapts.com/blog/1542057880/5-reasons-why-seniors-should-embrace-technology#:~:text=In%20short%2C%20technology%20isn't,higher%20quality%20of%20life%20overall.")! as URL, options: [:], completionHandler: nil)
         
     }
 }

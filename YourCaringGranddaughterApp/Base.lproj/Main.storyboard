@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -312,7 +313,7 @@
                                                 <rect key="frame" x="8" y="252" width="128" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="25"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.28604701160000001" green="0.31048992279999998" blue="0.13885509970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chairYoga" translatesAutoresizingMaskIntoConstraints="NO" id="IRk-11-VaM">
@@ -426,88 +427,121 @@
             <objects>
                 <viewController id="GSe-Yx-aES" customClass="FourthViewController" customModule="YourCaringGranddaughterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MHb-hG-DSV">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basics of Tech" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2H-CA-idX">
-                                <rect key="frame" x="0.0" y="69" width="390" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="46"/>
-                                <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🍃🌱🌿     🌱🍃🌿" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ho-UJ-T3S">
-                                <rect key="frame" x="40" y="56" width="310" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="35"/>
-                                <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="App Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aFR-RR-OO6">
-                                <rect key="frame" x="167" y="66" width="58" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBm-U3-QpF">
-                                <rect key="frame" x="23" y="98" width="344" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As technology continues to advance, it becomes harder and harder to understand what each component of a device does. However, Your Caring Granddaughter is here guide you through some major points of technology!</string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                <color key="textColor" red="0.28604701160000001" green="0.31048992279999998" blue="0.13885509970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQT-83-i73">
-                                <rect key="frame" x="58" y="441" width="207" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Open Website"/>
-                                <connections>
-                                    <action selector="TechWebsite1:" destination="GSe-Yx-aES" eventType="touchUpInside" id="Ub7-Ig-iIB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pf-cM-Jwx">
-                                <rect key="frame" x="193" y="718" width="162" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
-                                <state key="normal" title="Tech">
-                                    <color key="titleColor" red="0.2470588235" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXy-Qo-4x8">
-                                <rect key="frame" x="36" y="718" width="162" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
-                                <state key="normal" title="Health">
-                                    <color key="titleColor" red="0.2470588235" green="0.27450980390000002" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="JGN-ki-ijF" kind="presentation" modalPresentationStyle="fullScreen" id="tej-4Z-H5W"/>
-                                </connections>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bYQ-jB-vGL">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEY-zP-bcm">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🍃🌱🌿     🌱🍃🌿" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAh-Jk-hCh">
+                                                <rect key="frame" x="40" y="32" width="310" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="35"/>
+                                                <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="App Logo" translatesAutoresizingMaskIntoConstraints="NO" id="EqI-Nh-bkL">
+                                                <rect key="frame" x="166" y="42" width="58" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basics of Tech" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eO-nf-6Wy">
+                                                <rect key="frame" x="0.0" y="52" width="390" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="46"/>
+                                                <color key="textColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="highlightedColor" red="0.24546208980000001" green="0.27599754929999998" blue="0.12385051699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O37-Ak-G8Y">
+                                                <rect key="frame" x="24" y="125" width="342" height="276"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">As technology continues to advance, it is very important to learn how technology works, since doing so would make your life much more convenient and easy. Thankfully, Your Caring Daughter has compiled some important articles and videos that you can check out and finally understand what the universe of technology is all about! </string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                                <color key="textColor" red="0.28604701160000001" green="0.31048992279999998" blue="0.13885509970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="400" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDn-i3-5C8">
+                                                <rect key="frame" x="24" y="260" width="342" height="808"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Why should you learn technology?: 
+
+
+This website gives a brief overview of everything involving technology: 
+
+
+Watch this video to get introduced to some technical terms.
+
+
+Websites are a part of what makes technology so useful. Here is a website going over some of the most popular websites in 2021 and what each one provides you with!
+https://freshysites.com/web-design-development/most-popular-websites/
+
+
+Your Caring Granddaughter wishes you good luck on your journey to learn about technology! 💗</mutableString>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                                <color key="textColor" red="0.28604701160000001" green="0.31048992279999998" blue="0.13885509970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGX-nG-QHp">
+                                                <rect key="frame" x="24" y="514" width="97" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Open Website">
+                                                    <color key="titleColor" systemColor="linkColor"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05E-BX-SCr">
+                                                <rect key="frame" x="24" y="417" width="97" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Open Website">
+                                                    <color key="titleColor" systemColor="linkColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="exercisePlanButton:" destination="GSe-Yx-aES" eventType="touchUpInside" id="yFE-91-rfY"/>
+                                                    <action selector="firstButton:" destination="GSe-Yx-aES" eventType="touchUpInside" id="9KK-lv-lr7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96569544080000003" green="0.96193295720000005" blue="0.89050644639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.96569544080000003" green="0.96193295720000005" blue="0.89050644639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="3Ql-WF-yP1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hEY-zP-bcm" firstAttribute="leading" secondItem="bYQ-jB-vGL" secondAttribute="leading" id="Iyi-iK-j2x"/>
+                                    <constraint firstItem="hEY-zP-bcm" firstAttribute="top" secondItem="bYQ-jB-vGL" secondAttribute="top" id="TSg-PS-J4w"/>
+                                    <constraint firstAttribute="bottom" secondItem="hEY-zP-bcm" secondAttribute="bottom" id="Tg6-gr-oj5"/>
+                                    <constraint firstAttribute="trailing" secondItem="hEY-zP-bcm" secondAttribute="trailing" id="rMz-Ps-ofV"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KZn-Uz-T9a"/>
                         <color key="backgroundColor" red="0.95572978259999997" green="0.95500177149999999" blue="0.87316423649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bYQ-jB-vGL" secondAttribute="bottom" id="7MO-Ma-6lI"/>
+                            <constraint firstItem="bYQ-jB-vGL" firstAttribute="top" secondItem="MHb-hG-DSV" secondAttribute="top" id="8lp-5H-vhY"/>
+                            <constraint firstItem="bYQ-jB-vGL" firstAttribute="leading" secondItem="KZn-Uz-T9a" secondAttribute="leading" id="N2p-jy-lpd"/>
+                            <constraint firstItem="hEY-zP-bcm" firstAttribute="width" secondItem="MHb-hG-DSV" secondAttribute="width" id="dUa-82-gMh"/>
+                            <constraint firstItem="bYQ-jB-vGL" firstAttribute="trailing" secondItem="KZn-Uz-T9a" secondAttribute="trailing" id="ieB-qj-xud"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dKR-Zc-Arh"/>
+                    <size key="freeformSize" width="390" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3l-dT-Zq6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2391" y="79"/>
+            <point key="canvasLocation" x="2356.9230769230767" y="312.7962085308057"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="qk9-dh-E89"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="App Logo" width="685" height="684"/>
         <image name="cardio" width="334" height="184"/>
         <image name="chairYoga" width="716" height="402"/>
         <image name="pilates" width="718" height="400"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
