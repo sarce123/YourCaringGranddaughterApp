@@ -452,7 +452,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6R1-7g-g3z">
                                 <rect key="frame" x="24" y="137" width="342" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As technology continues to advance, it is very important to learn how technology works, since doing so would make your life much more convenient and easy. Thankfully, Your Caring Daughter has compiled some important articles and videos that you can check out and finally understand what the universe of technology is all about! </string>
+                                <string key="text">As technology continues to advance, it is very important to learn how technology works, since doing so would make your life much more convenient and easy. Thankfully, Your Caring Granddaughter has compiled some important articles and videos that you can check out and finally understand what the universe of technology is all about! </string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="textColor" red="0.28604701160000001" green="0.31048992279999998" blue="0.13885509970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
