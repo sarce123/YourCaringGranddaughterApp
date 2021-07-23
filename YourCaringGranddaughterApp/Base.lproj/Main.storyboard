@@ -423,10 +423,10 @@
             </objects>
             <point key="canvasLocation" x="1556.9230769230769" y="276.54028436018956"/>
         </scene>
-        <!--View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="6Qu-zg-GWO">
             <objects>
-                <viewController id="6vs-rD-ve4" sceneMemberID="viewController">
+                <viewController id="6vs-rD-ve4" customClass="FourthViewController" customModule="YourCaringGranddaughterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wFh-YL-Bex">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -460,7 +460,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fjp-Ln-aYj">
                                 <rect key="frame" x="24" y="371" width="342" height="474"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Why should you learn technology?: 
+                                <string key="text">Why should you learn technology?: 
 
 
 This website gives a brief overview of everything involving technology: 
@@ -472,7 +472,7 @@ Watch this video to get introduced to some technical terms.
 Popular websites in 2021:
 
 
-Your Caring Granddaughter wishes you good luck on your journey to learn about technology! 💗</mutableString>
+Your Caring Granddaughter wishes you good luck on your journey to learn about technology! 💗</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="textColor" red="0.28604701160000001" green="0.31048992279999998" blue="0.13885509970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -483,6 +483,9 @@ Your Caring Granddaughter wishes you good luck on your journey to learn about te
                                 <state key="normal" title="Open Website">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTwoTapped:" destination="6vs-rD-ve4" eventType="touchUpInside" id="Sw6-YH-gd0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgL-hs-93B">
                                 <rect key="frame" x="24" y="429" width="97" height="30"/>
@@ -490,6 +493,9 @@ Your Caring Granddaughter wishes you good luck on your journey to learn about te
                                 <state key="normal" title="Open Website">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonOneTapped:" destination="6vs-rD-ve4" eventType="touchUpInside" id="14H-Pd-p2Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8n-fd-xNI">
                                 <rect key="frame" x="24" y="617" width="97" height="30"/>
@@ -497,6 +503,9 @@ Your Caring Granddaughter wishes you good luck on your journey to learn about te
                                 <state key="normal" title="Open Website">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonThreeTapped:" destination="6vs-rD-ve4" eventType="touchUpInside" id="XJc-aU-j4A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4d-49-ESK">
                                 <rect key="frame" x="24" y="688" width="97" height="30"/>
@@ -504,6 +513,9 @@ Your Caring Granddaughter wishes you good luck on your journey to learn about te
                                 <state key="normal" title="Open Website">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonFourTapped:" destination="6vs-rD-ve4" eventType="touchUpInside" id="x20-zn-NYo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sWU-So-pv3"/>
@@ -513,7 +525,7 @@ Your Caring Granddaughter wishes you good luck on your journey to learn about te
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffG-m5-95I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="79"/>
+            <point key="canvasLocation" x="2329" y="79"/>
         </scene>
     </scenes>
     <resources>
